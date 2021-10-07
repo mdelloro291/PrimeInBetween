@@ -34,6 +34,7 @@ class Program {
 						if(start < end){
 							for(int countOne = start; countOne <= end; ++countOne){
 								// Check number for divisibility
+								
 								for(int countTwo = 2; countTwo < countOne / 2; ++countTwo){
 									// Check current number for divisibility
 									if(countOne % countTwo == 0){
